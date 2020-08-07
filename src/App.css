@@ -114,3 +114,13 @@ input[type="number"] {
   padding: 10px;
   width: 100%;
 }
+
+.list li:hover .delete-btn {
+  opacity: 1;
+}
+
+@media (max-width: 320px) {
+  .container {
+    width: 300px;
+  }
+}
